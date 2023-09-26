@@ -1,0 +1,22 @@
+.carosel-container {
+  position: relative;
+}
+
+.carosel,
+.carosel-backContainer {
+  padding: 20px;
+  width: -webkit-fill-available;
+  height: fit-content;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 4px 4px 8px -1px rgba(78, 161, 89, 0.71);
+  -webkit-box-shadow: 4px 4px 8px -1px rgba(78, 161, 89, 0.71);
+  -moz-box-shadow: 4px 4px 8px -1px rgba(78, 161, 89, 0.71);
+}
+
+.carosel-backContainer {
+  position: absolute;
+  bottom: -20px;
+  height: -webkit-fill-available;
+  z-index: -10;
+}

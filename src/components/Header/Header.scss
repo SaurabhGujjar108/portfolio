@@ -1,0 +1,65 @@
+.header {
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  padding: 15px 0;
+  justify-content: space-evenly;
+  gap: 100px;
+  background-color: #fff;
+  z-index: 999;
+
+
+  a {
+    text-decoration: none;
+  }
+
+  .logo {
+    font-size: 35px;
+    font-weight: bolder;
+    span {
+      margin-left: 5px;
+      background-color: #208b3a;
+      padding: 8px 8px;
+      border-radius: 3px;
+      color: white;
+    }
+    a {
+      color: rgb(32, 32, 32);
+    }
+  }
+  .header-list {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+    padding: 0;
+    margin: 0;
+
+    .header-list-items {
+      a {
+        font-size: 20px;
+        color: rgb(32, 32, 32);
+        &:hover {
+          border-bottom: 1px solid;
+          padding-bottom: 10px;
+          color: #208b3a;
+        }
+      }
+    }
+  }
+
+  .header-hireMeBtn {
+    padding: 13px 18px;
+    background-color: white;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    a {
+      color: #208b3a;
+    }
+    box-shadow: 4px 4px 8px -1px rgba(78, 161, 89, 0.71);
+    -webkit-box-shadow: 4px 4px 8px -1px rgba(78, 161, 89, 0.71);
+    -moz-box-shadow: 4px 4px 8px -1px rgba(78, 161, 89, 0.71);
+  }
+}

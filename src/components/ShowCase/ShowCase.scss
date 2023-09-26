@@ -1,0 +1,56 @@
+.showCase {
+  .myServices-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    .label {
+      background-color: rgba(78, 161, 89, 0.178);
+      width: fit-content;
+      padding: 5px 10px;
+      border-radius: 5px;
+      color: #208b3a;
+      margin-bottom: 10px;
+      box-shadow: 4px 4px 8px -1px rgba(78, 161, 89, 0.71);
+      -webkit-box-shadow: 4px 4px 8px -1px rgba(78, 161, 89, 0.71);
+      -moz-box-shadow: 4px 4px 8px -1px rgba(78, 161, 89, 0.71);
+    }
+
+    .heading {
+      font-size: 25px;
+      font-weight: bolder;
+    }
+  }
+
+  .tabs {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    gap: 30px;
+
+    li {
+      &:hover {
+        color: #208b3a;
+        border-bottom: 2px solid #208b3a;
+        font-weight: bolder;
+      }
+    }
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .row {
+      display: flex;
+
+      gap: 10px;
+    }
+
+    img{
+        width: 100%;
+        height: 100%;
+    }
+  }
+}

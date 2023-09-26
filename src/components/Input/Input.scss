@@ -1,0 +1,19 @@
+.input-container{
+    width: 550px;
+    border: 1px solid gray;
+     border-radius: 5px;
+     padding: 2px;
+
+
+    .input{
+        border: none;
+        outline: none;
+        height: 35px;
+        width: 96%;
+        padding: 10px;
+        object-fit: contain;
+        font-size: 20px;
+        color: gray;
+        font-weight: 520;
+    }
+}

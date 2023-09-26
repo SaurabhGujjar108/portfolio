@@ -1,0 +1,44 @@
+.skills {
+  .myServices-header {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+    gap: 20px;
+    .label {
+      background-color: rgba(78, 161, 89, 0.178);
+      width: fit-content;
+      padding: 5px 10px;
+      border-radius: 5px;
+      color: #208b3a;
+      margin-bottom: 10px;
+      box-shadow: 4px 4px 8px -1px rgba(78, 161, 89, 0.71);
+      -webkit-box-shadow: 4px 4px 8px -1px rgba(78, 161, 89, 0.71);
+      -moz-box-shadow: 4px 4px 8px -1px rgba(78, 161, 89, 0.71);
+    }
+
+    .heading {
+      font-size: 25px;
+      font-weight: bolder;
+      margin-bottom: 20px;
+    }
+  }
+
+
+  .skillCard{
+      width: 32%;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      .card-title{
+          font-size: 22px;
+      }
+      .card-description{
+          color: gray;
+      }
+      .card-percent{
+        font-size: 22px;
+      }
+  }
+}

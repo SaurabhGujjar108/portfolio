@@ -1,0 +1,55 @@
+.about {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 20px;
+  padding: 150px 0;
+
+  .about-content {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+
+    .label {
+      background-color: rgba(78, 161, 89, 0.178);
+      width: fit-content;
+      padding: 5px 10px;
+      border-radius: 5px;
+      color: #208b3a;
+      margin-bottom: 10px;
+      box-shadow: 4px 4px 8px -1px rgba(78, 161, 89, 0.71);
+      -webkit-box-shadow: 4px 4px 8px -1px rgba(78, 161, 89, 0.71);
+      -moz-box-shadow: 4px 4px 8px -1px rgba(78, 161, 89, 0.71);
+    }
+
+    .title {
+      font-size: 25px;
+      font-weight: bolder;
+    }
+    .button {
+      a {
+        text-decoration: none;
+      }
+      background-color: #208b3a;
+      color: white;
+      width: fit-content;
+      padding: 25px 45px;
+      font-size: 22px;
+      border-radius: 5px;
+      box-shadow: 4px 4px 8px -1px rgba(78, 161, 89, 0.71);
+      -webkit-box-shadow: 4px 4px 8px -1px rgba(78, 161, 89, 0.71);
+      -moz-box-shadow: 4px 4px 8px -1px rgba(78, 161, 89, 0.71);
+    }
+  }
+
+  .image-container {
+    border-radius: 50%;
+    .about-image {
+      border-radius: 50%;
+    }
+    box-shadow: 4px 4px 8px -1px rgba(78, 161, 89, 0.71);
+    -webkit-box-shadow: 4px 4px 8px -1px rgba(78, 161, 89, 0.71);
+    -moz-box-shadow: 4px 4px 8px -1px rgba(78, 161, 89, 0.71);
+  }
+}

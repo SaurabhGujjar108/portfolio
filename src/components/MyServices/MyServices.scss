@@ -1,0 +1,46 @@
+.myServices {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    margin: auto;
+    gap: 60px;
+    margin: auto;
+    padding: 150px 0;
+
+  .myServices-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    .label {
+      background-color: rgba(78, 161, 89, 0.178);
+      width: fit-content;
+      padding: 5px 10px;
+      border-radius: 5px;
+      color: #208b3a;
+      margin-bottom: 10px;
+      box-shadow: 4px 4px 8px -1px rgba(78, 161, 89, 0.71);
+      -webkit-box-shadow: 4px 4px 8px -1px rgba(78, 161, 89, 0.71);
+      -moz-box-shadow: 4px 4px 8px -1px rgba(78, 161, 89, 0.71);
+    }
+
+    .heading {
+      font-size: 25px;
+      font-weight: bolder;
+    }
+  }
+
+  .cards {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    
+    .row{
+        display: flex;
+
+        gap: 40px;
+    }
+      
+  }
+}
